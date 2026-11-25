@@ -208,11 +208,11 @@ export const pricing = [
   },
   {
     name: "EMS тренировки",
-    tagline: "Тренировка в EMS студиото",
-    price: "24",
-    period: "€ /",
-    features: ["Карта 4 посещения 82 €", "Карта 8 посещения 132 €", "Карта 12 посещения 175 €"],
-    featured: false,
+    tagline: "Тренировка с електрическа мускулна стимулация",
+  period: "24€ /",
+  badge: "🔥 BLACK FRIDAY ПРОМОЦИЯ",
+  features: ["Карта 4 посещения 82 €", "Карта 8 посещения 80 € - Black Friday 🔥", "Карта 12 посещения 175 €"],
+  featured: true,
   },
 ];
 export type BoxingIcon = "fist" | "target" | "shield" | "flame" | "heart" | "brain" | "timer" | "biceps";

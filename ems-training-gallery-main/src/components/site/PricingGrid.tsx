@@ -20,7 +20,7 @@ export function PricingGrid() {
           >
             {plan.featured && (
               <span className="absolute right-0 top-0 bg-primary px-4 py-1.5 text-[0.65rem] font-bold uppercase tracking-[0.2em] text-primary-foreground">
-                Популярен
+                {plan.badge ?? "Популярен"}
               </span>
             )}
             <p className="eyebrow">{String(i + 1).padStart(2, "0")}</p>
