@@ -11,6 +11,7 @@ const emsstudioroom = { url: "/photos/emsstudioroom.jpg" };
 const emssuitslounge = { url: "/photos/emssuitslounge.jpg" };
 const trainer1 = { url: "/photos/trainer1.png" };
 const trainer2 = { url: "/photos/trainer2.png" };
+const trainer3 = { url: "/photos/trainer3.jpg" };
 
 export type Photo = {
   id: string;
@@ -154,7 +155,7 @@ export const services: {
 export const team = [
   {
     id: "kiril-dimitrov",
-    name: "Кирил Димитров",
+    name: "Кирчо Димитров",
     role: "Фитнес треньор",
     specialties: [
       "Индивидуални и групови тренировки",
@@ -174,6 +175,17 @@ export const team = [
     ],
     photo: { src: trainer2. url, alt: "Слави — треньор, специализиран в EMS тренировки", width: 479, height: 649 },
   },
+  {
+  id: "yoana-vaglenova",
+  name: "ЙОАНА ВЪГЛЕНОВА",
+  role: "EMS ТРЕНЬОР",
+  specialties: [
+    "Индивидуални EMS тренировки",
+    "Изготвяне на персонални EMS програми",
+    "Съвети за хранене и здравословен начин на живот",
+  ],
+  photo: { src: trainer3.url, alt: "Йоана Въгленова - EMS треньор", width: 494, height: 660 },
+},
 ];
 
 /** TODO: попълнете реалните цени и условия. Не публикувайте измислени цени. */
