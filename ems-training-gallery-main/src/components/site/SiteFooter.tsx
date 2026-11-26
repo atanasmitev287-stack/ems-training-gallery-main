@@ -17,7 +17,7 @@ export function SiteFooter() {
 </p>
 <div className="mt-4 flex flex-col items-start gap-3">
   <a href="tel:+359888123456" className="inline-flex items-center gap-2 text-sm font-bold text-white hover:text-yellow-400">
-    Управител: +359 888 123 456
+    📱+359 888 123 456
   </a>
   <a
     href={contact.instagram}
