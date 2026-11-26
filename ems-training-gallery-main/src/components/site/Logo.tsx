@@ -8,7 +8,7 @@ export function Logo({ className }: { className?: string }) {
       aria-label="Golden Gym Central — начало"
       className={cn("group flex shrink-0 items-center gap-3", className)}
     >
-      <img src="/logo-white.webp" alt="Golden Gym Central" className="h-14 w-auto" />
+      <img src="/logo-white.webp" alt="Golden Gym Central" className="h-10 w-auto" />
       <span className="flex flex-col leading-none">
         <span className="font-display text-sm font-bold tracking-[0.12em] text-foreground sm:text-base">
           GOLDEN GYM
