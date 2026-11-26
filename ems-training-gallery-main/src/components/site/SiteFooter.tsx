@@ -12,16 +12,15 @@ export function SiteFooter() {
       <div className="relative z-10 mx-auto grid max-w-7xl gap-12 px-5 pb-40 pt-16 sm:px-8 md:grid-cols-2 lg:grid-cols-4 lg:pb-52">
         <div className="space-y-5">
           <Logo />
-          <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
-            Фитнес клуб в сърцето на Благоевград. Сила, дисциплина и атмосфера, която те кара да се
-            връщаш.
-          </p>
-          <div className="flex flex-col items-start gap-3">
+          <p className="mt-5 max-w-sm text-sm leading-relaxed text-zinc-400">
+  Фитнес клуб в сърцето на Благоевград. Сила, дисциплина и атмосфера, която те кара да се връщаш.
+</p>
+<div className="mt-4 flex flex-col items-start gap-3">
   <a href="tel:+359888123456" className="inline-flex items-center gap-2 text-sm font-bold text-white hover:text-yellow-400">
     Управител: +359 888 123 456
   </a>
   <a
-   href={contact.instagram}
+    href={contact.instagram}
     target="_blank"
     rel="noreferrer"
     aria-label="Golden Gym Central в Instagram"
@@ -30,8 +29,7 @@ export function SiteFooter() {
     <Instagram className="h-5 w-5" />
   </a>
 </div>
-        </div>
-
+</div>
         <div>
           <h2 className="eyebrow mb-5">Навигация</h2>
           <ul className="grid grid-cols-2 gap-x-6 gap-y-3 text-sm">
