@@ -166,7 +166,7 @@ export const team = [
   },
   {
     id: "slavi",
-    name: "Слави",
+    name: "Слави Димов",
     role: "EMS треньор",
     specialties: [
       "EMS тренировки",
