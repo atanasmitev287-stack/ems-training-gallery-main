@@ -8,9 +8,7 @@ export function Logo({ className }: { className?: string }) {
       aria-label="Golden Gym Central — начало"
       className={cn("group flex shrink-0 items-center gap-3", className)}
     >
-      <span className="grid h-10 w-10 place-items-center rounded-sm bg-gold font-display text-lg font-black text-primary-foreground transition-transform duration-500 group-hover:rotate-[8deg]">
-        G
-      </span>
+      <img src="/logo-transparent.png" alt="Golden Gym Central" className="h-12 w-12 object-contain" />
       <span className="flex flex-col leading-none">
         <span className="font-display text-sm font-bold tracking-[0.12em] text-foreground sm:text-base">
           GOLDEN GYM
