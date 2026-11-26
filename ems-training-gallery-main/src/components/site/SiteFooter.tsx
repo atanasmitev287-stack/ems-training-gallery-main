@@ -16,6 +16,9 @@ export function SiteFooter() {
             Фитнес клуб в сърцето на Благоевград. Сила, дисциплина и атмосфера, която те кара да се
             връщаш.
           </p>
+          <a href="tel:+359888123456" className="mt-1 inline-flex items-center gap-2 text-sm font-bold text-white hover:text-yellow-400">
+  📞 Управител: +359 888 123 456
+</a>
           <a
             href={contact.instagram}
             target="_blank"
