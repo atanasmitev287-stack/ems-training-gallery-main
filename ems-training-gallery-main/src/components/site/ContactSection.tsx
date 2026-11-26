@@ -64,22 +64,23 @@ export function ContactSection() {
   });
 
  const onSubmit = async (data: any) => {
-  try {
-    fetch("https://formsubmit.co/ajax/atanasmitev287@gmail.com", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        name: data.name,
-        phone: data.phone,
-        email: data.email,
-        message: data.message,
-        _subject: "Ново запитване от goldengymcentral.com",
-      }),
-    });
-  } catch (e) {}
+  await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      access_key: "ce2a866a-a919-462b-a762-669ca359dd3f",
+      subject: "Ново запитване от goldengymcentral.com",
+      from_name: "Golden Gym Central",
+      name: data.name,
+      phone: data.phone,
+      email: data.email,
+      message: data.message,
+    }),
+  }).catch(() => {});
   setSent(true);
   reset();
 };
+
 
   const info = [
     {
