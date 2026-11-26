@@ -68,7 +68,7 @@ export function ContactSection() {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      access_key: "ce2a866a-a919-462b-a762-669ca359dd3f",
+      access_key: "cda859ff-bf0d-4831-9a63-775abf099e6e",
       subject: "Ново запитване от goldengymcentral.com",
       from_name: "Golden Gym Central",
       name: data.name,
