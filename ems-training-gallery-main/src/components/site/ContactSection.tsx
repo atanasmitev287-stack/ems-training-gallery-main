@@ -63,12 +63,23 @@ export function ContactSection() {
     defaultValues: { name: "", phone: "", email: "", service: "", message: "" },
   });
 
-  const onSubmit = async () => {
-    // TODO: свържете формата с имейл или база данни, за да получавате запитванията.
-    await new Promise((r) => setTimeout(r, 500));
-    setSent(true);
-    reset();
-  };
+ const onSubmit = async (data: any) => {
+  try {
+    await fetch("https://formsubmit.co/ajax/atanasmitev287@gmail.com", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: data.name,
+        phone: data.phone,
+        email: data.email,
+        message: data.message,
+        _subject: "Ново запитване от goldengymcentral.com",
+      }),
+    });
+  } catch (e) {}
+  setSent(true);
+  reset();
+};
 
   const info = [
     {
