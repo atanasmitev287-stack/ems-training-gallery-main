@@ -65,7 +65,7 @@ export function ContactSection() {
 
  const onSubmit = async (data: any) => {
   try {
-    await fetch("https://formsubmit.co/ajax/atanasmitev287@gmail.com", {
+    fetch("https://formsubmit.co/ajax/atanasmitev287@gmail.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
