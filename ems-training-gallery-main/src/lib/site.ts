@@ -209,7 +209,8 @@ export const pricing = [
   {
     name: "EMS тренировки",
     tagline: "Тренировка с електрическа мускулна стимулация",
-  period: "24€ /",
+  price: "24 /",
+  period: "€ / тренировка",
   badge: "🔥 BLACK FRIDAY ПРОМОЦИЯ",
   features: ["Карта 4 посещения 82 €", "Карта 8 посещения 80 € - Black Friday 🔥", "Карта 12 посещения 175 €"],
   featured: true,
